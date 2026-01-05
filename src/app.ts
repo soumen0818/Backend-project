@@ -5,6 +5,7 @@ import userRouter from "./user/usersRouter.js";
 
 
 const app = express();
+app.use (express.json());
 
 //routs
 //https method get post put delete,patch
